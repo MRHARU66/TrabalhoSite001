@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+<title>Éric Gustavo Costa Jorge</title>
+<!--CSS-->
+<style>
+    @keyframes color-change {
+        0% {color: yellow;}
+        50% {color: orange;}
+        75% {color: red;}
+        100% {color: yellow;}
+    }
+    @keyframes color-change2 {
+        0% {color: blueviolet;}
+        50% {color: white;}
+        100% {color: blueviolet;}
+    }
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+    }
+    a:hover, a:active {
+        color: yellow;
+    }
+    h1 {
+        color: yellow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-large;
+        text-align: left;
+        animation: color-change 2s infinite;
+        
+    }
+    title {
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    img {
+        border-radius: 21px 21px;
+        text-align: center;
+        text-shadow: 21px 21px black;
+    }
+    h2 {
+        color: yellow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-large;
+        animation: color-change 2s infinite;
+        
+    }
+    p {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        text-align: center;
+        font-style: italic;
+    }
+    ul {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        list-style-type: circle;
+        font-style: italic;
+        text-align: justify;
+    }
+    
+    table {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        border: 1px solid;
+        text-align: center;
+    }
+    th{
+        border: 1px solid;
+        text-align: center;
+    }
+    tr{
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+    body{
+        background-image: linear-gradient(black, gray);
+    }
+    button{
+        color: white;
+        background-color: blueviolet;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        animation: color-change2 2s infinite;
+    }
+    p{
+        text-align: left;
+    }
+</style>
+<!--HTML-->
+</head>
+<body style="background-color: black;">
+<h1>Biografia</h1>
+<p>Nome: Éric Gustavo Costa Jorge</p>
+<p>Idade: 37 anos</p>
+<p>Cidade: Porto Alegre</p>
+<p>Interesses: Programação de Softwares</p>
+<br></br>
+<h2>Hobbies</h2>
+<ul>
+<li>Assistir filmes e séries</li>
+<li>Jogar Video Game</li>
+<li>Programar</li>
+</ul>
+<br></br>
+<img src="xboxgame.jpg" alt="xboxgame" style="width:400px;height:280px;">
+<br></br>
+<p></p>
+<table>
+<thead>
+    <tr>
+        <th scope="col">País</th>
+        <th scope="col">Imagem</th>
+    </tr>
+</thead>
+<tbody>
+    
+    <tr>
+        <th scope="row">Itália</th>
+        <td><img src="italia.jpg" alt="italiaimagem" style="width:100px;height:76px;"></td>
+    </tr>
+    <tr>
+        <th scope="row">Japão</th>
+        <td><img src="japão.jpg" alt="japãoimagem" style="width:100px;height:76px;"></td>
+    </tr>
+    <tr>
+        <th scope="row">Canadá</th>
+        <td><img src="canada.jpg" alt="canadaimage" style="width:100px;height:76px;"></td>
+    </tr>
+
+    <!--JavaScript-->
+    <button onclick="myFunction()">Clique Aqui para ver uma mensagem</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "Seja Bem-Vindo ao meu site!";
+        }
+    </script>
+</tbody>
+</table>
+ <br></br>
+ <h2><a href="https://www.elderscrollsonline.com/en-us/home">Jogar video game</a></h2>
+</body>
